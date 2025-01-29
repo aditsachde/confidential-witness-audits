@@ -1,0 +1,15 @@
+{
+  "attributeCondition": "    'STABLE' in assertion.submods.confidential_space.support_attributes &&\n    assertion.swname=='CONFIDENTIAL_SPACE' &&\n    assertion.submods.container.image_reference=='ghcr.io/aditsachde/confidential-witness@sha256:b634433ac01a0f43c05bbeb257044b990fee51a3128a5a5310192a5bddc9bc2d' &&\n    assertion.submods.gce.project_id=='buoyant-breeze' &&\n    assertion.submods.container.env.WITNESS_KEY=='projects/buoyant-breeze/locations/us-east5/keyRings/witness-keyring/cryptoKeys/witness-key/cryptoKeyVersions/1' &&\n    assertion.submods.container.env.WITNESS_NAME=='ConfidentialWitness-buoyant-breeze' &&\n    assertion.submods.container.env.WITNESS_AUDIENCE=='//iam.googleapis.com/projects/268995702429/locations/global/workloadIdentityPools/trusted-workload-pool/providers/attestation-verifier' &&\n    'witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com' in assertion.google_service_accounts\n",
+  "attributeMapping": {
+    "attribute.image_digest": "assertion.submods.container.image_digest",
+    "google.subject": "assertion.sub"
+  },
+  "name": "projects/268995702429/locations/global/workloadIdentityPools/trusted-workload-pool/providers/attestation-verifier",
+  "oidc": {
+    "allowedAudiences": [
+      "https://sts.googleapis.com"
+    ],
+    "issuerUri": "https://confidentialcomputing.googleapis.com/"
+  },
+  "state": "ACTIVE"
+}

@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "members": [
+        "principalSet://iam.googleapis.com/projects/268995702429/locations/global/workloadIdentityPools/trusted-workload-pool/*"
+      ],
+      "role": "roles/cloudkms.signerVerifier"
+    }
+  ],
+  "etag": "BwYs0bnyISY=",
+  "version": 1
+}

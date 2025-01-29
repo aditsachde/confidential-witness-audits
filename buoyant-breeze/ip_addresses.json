@@ -1,0 +1,19 @@
+[
+  {
+    "address": "34.1.27.170",
+    "addressType": "EXTERNAL",
+    "creationTimestamp": "2025-01-28T21:40:42.658-08:00",
+    "description": "",
+    "id": "7659276909333971381",
+    "kind": "compute#address",
+    "labelFingerprint": "42WmSpB8rSM=",
+    "name": "wit-cf19-9790de2d-2455-3bd7-99e6-7116cc2577fc",
+    "networkTier": "STANDARD",
+    "region": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/regions/us-east5",
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/regions/us-east5/addresses/wit-cf19-9790de2d-2455-3bd7-99e6-7116cc2577fc",
+    "status": "IN_USE",
+    "users": [
+      "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/instances/wit-cf19"
+    ]
+  }
+]

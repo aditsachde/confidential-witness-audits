@@ -1,0 +1,42 @@
+{
+  "bindings": [
+    {
+      "members": [
+        "principalSet://iam.googleapis.com/projects/268995702429/locations/global/workloadIdentityPools/github-actions-pool/*"
+      ],
+      "role": "roles/cloudkms.publicKeyViewer"
+    },
+    {
+      "members": [
+        "serviceAccount:268995702429@cloudservices.gserviceaccount.com"
+      ],
+      "role": "roles/compute.instanceGroupManagerServiceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com"
+      ],
+      "role": "roles/confidentialcomputing.workloadUser"
+    },
+    {
+      "members": [
+        "principalSet://iam.googleapis.com/projects/268995702429/locations/global/workloadIdentityPools/github-actions-pool/*"
+      ],
+      "role": "roles/iam.securityReviewer"
+    },
+    {
+      "members": [
+        "principalSet://iam.googleapis.com/projects/268995702429/locations/global/workloadIdentityPools/github-actions-pool/*"
+      ],
+      "role": "roles/iam.workloadIdentityPoolViewer"
+    },
+    {
+      "members": [
+        "principalSet://iam.googleapis.com/projects/268995702429/locations/global/workloadIdentityPools/github-actions-pool/*"
+      ],
+      "role": "roles/logging.privateLogViewer"
+    }
+  ],
+  "etag": "BwYs0cCGj_g=",
+  "version": 1
+}
