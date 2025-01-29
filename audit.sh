@@ -11,6 +11,14 @@ gcloud kms keys versions get-public-key projects/$PROJECT/locations/us-east5/key
 # Fetch the IP address of the witness
 gcloud compute addresses list --format=json > ip_addresses.json
 
+# Get details about the trusted workload pool
+gcloud iam workload-identity-pools providers describe attestation-verifier --workload-identity-pool="trusted-workload-pool" --location="global" --format=json > attestation_verifier_provider.json
+
+# Get the projects in the organization to link the project to the organization id
+gcloud projects list --format=json > organization_projects.json
+
+gcloud organizations get-iam-policy $(gcloud projects list --format=json | jq -r ".[] | select(.name == \"$PROJECT\") | .parent.id") --format=json > organization_iam_policy.json
+
 # Get the project IAM polices
 gcloud projects get-iam-policy $PROJECT --format=json > project_iam_policy.json
 
@@ -19,7 +27,4 @@ gcloud kms keyrings get-iam-policy projects/$PROJECT/locations/us-east5/keyRings
 
 # Get the IAM polices on the key
 gcloud kms keys get-iam-policy projects/$PROJECT/locations/us-east5/keyRings/witness-keyring/cryptoKeys/witness-key --format=json > key_iam_policy.json
-
-# Get details about the trusted workload pool
-gcloud iam workload-identity-pools providers describe attestation-verifier --workload-identity-pool="trusted-workload-pool" --location="global" --format=json > attestation_verifier_provider.json
 
