@@ -1,0 +1,30 @@
+{
+  "bindings": [
+    {
+      "members": [
+        "domain:koven.dev"
+      ],
+      "role": "roles/billing.creator"
+    },
+    {
+      "members": [
+        "principalSet://iam.googleapis.com/projects/268995702429/locations/global/workloadIdentityPools/github-actions-pool/*"
+      ],
+      "role": "roles/iam.securityReviewer"
+    },
+    {
+      "members": [
+        "user:admin@koven.dev"
+      ],
+      "role": "roles/resourcemanager.organizationAdmin"
+    },
+    {
+      "members": [
+        "domain:koven.dev"
+      ],
+      "role": "roles/resourcemanager.projectCreator"
+    }
+  ],
+  "etag": "BwYs0mZ-7Zw=",
+  "version": 1
+}
