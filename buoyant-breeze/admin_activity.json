@@ -1,5 +1,4149 @@
 [
   {
+    "insertId": "1amx257c1b5",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/430a566f-da83-45d4-a0e5-bd0968cca7c2",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/430a566f-da83-45d4-a0e5-bd0968cca7c2"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T08:39:28.374777383Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/430a566f-da83-45d4-a0e5-bd0968cca7c2",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T08:39:29.075898929Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T08:39:28.364397901Z"
+  },
+  {
+    "insertId": "33w1vqc1ri",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T08:39:27.448188801Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T08:39:28.148081694Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T08:39:27.435403226Z"
+  },
+  {
+    "insertId": "18frxnxc4hi",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/e24d2a22-a7e4-4b40-8927-d411f6dd8f9f",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/e24d2a22-a7e4-4b40-8927-d411f6dd8f9f"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T07:49:49.022938615Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/e24d2a22-a7e4-4b40-8927-d411f6dd8f9f",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T07:49:49.257811299Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T07:49:49.002193138Z"
+  },
+  {
+    "insertId": "1amx257c1aq",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T07:49:48.081464095Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T07:49:48.461288475Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T07:49:48.060259376Z"
+  },
+  {
+    "insertId": "18frxnxc4hd",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/14fb6bec-cf38-4186-9c97-a3809844987b",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/14fb6bec-cf38-4186-9c97-a3809844987b"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T06:55:57.141186534Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/14fb6bec-cf38-4186-9c97-a3809844987b",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T06:55:57.711479801Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T06:55:57.134466105Z"
+  },
+  {
+    "insertId": "33w1vqc1qs",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T06:55:56.218082192Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T06:55:56.921370902Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T06:55:56.206508743Z"
+  },
+  {
+    "insertId": "18frxnxc4gz",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/6e64a9b5-4906-4f5d-9ff6-b163bc0ae95a",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/6e64a9b5-4906-4f5d-9ff6-b163bc0ae95a"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T06:08:58.921856637Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/6e64a9b5-4906-4f5d-9ff6-b163bc0ae95a",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T06:08:59.280021626Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T06:08:58.912546689Z"
+  },
+  {
+    "insertId": "1amx257c19x",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T06:08:58.308270149Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T06:08:59.163911878Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T06:08:58.296108307Z"
+  },
+  {
+    "insertId": "33w1vqc1q1",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/b8bd6a3b-77b2-4ef3-8e03-a3b62e39f7da",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/b8bd6a3b-77b2-4ef3-8e03-a3b62e39f7da"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T05:19:47.158168891Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/b8bd6a3b-77b2-4ef3-8e03-a3b62e39f7da",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T05:19:47.830475668Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T05:19:47.135785542Z"
+  },
+  {
+    "insertId": "33w1vqc1q0",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T05:19:46.187564247Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T05:19:46.828262008Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T05:19:46.171517315Z"
+  },
+  {
+    "insertId": "33w1vqc1pg",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/214e8dc5-9ef0-41a0-87ad-1634ea706b2e",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/214e8dc5-9ef0-41a0-87ad-1634ea706b2e"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T04:30:45.276634364Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/214e8dc5-9ef0-41a0-87ad-1634ea706b2e",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T04:30:46.275076297Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T04:30:45.263772455Z"
+  },
+  {
+    "insertId": "1amx257c199",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T04:30:44.277550603Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T04:30:45.042428666Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T04:30:44.251369717Z"
+  },
+  {
+    "insertId": "1amx257c18w",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/5692b6d5-0677-4831-8aa8-77b8dda012ce",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/5692b6d5-0677-4831-8aa8-77b8dda012ce"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T03:39:26.676334138Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/5692b6d5-0677-4831-8aa8-77b8dda012ce",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T03:39:27.315739913Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T03:39:26.663537337Z"
+  },
+  {
+    "insertId": "33w1vqc1p5",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T03:39:25.666199383Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T03:39:26.709506463Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T03:39:25.655300317Z"
+  },
+  {
+    "insertId": "33w1vqc1ov",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/e1809689-d886-414f-ba76-658d11fc91fd",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/e1809689-d886-414f-ba76-658d11fc91fd"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T02:53:57.587649565Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/e1809689-d886-414f-ba76-658d11fc91fd",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T02:53:58.173037457Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T02:53:57.570791162Z"
+  },
+  {
+    "insertId": "33w1vqc1ou",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T02:53:56.577546615Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T02:53:57.169384085Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T02:53:56.565529645Z"
+  },
+  {
+    "insertId": "18frxnxc4fl",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/7498d723-1f8f-4e31-a431-1cc14c8bcfb7",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/7498d723-1f8f-4e31-a431-1cc14c8bcfb7"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T02:03:16.735879773Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/7498d723-1f8f-4e31-a431-1cc14c8bcfb7",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T02:03:17.012448961Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T02:03:16.721441506Z"
+  },
+  {
+    "insertId": "18frxnxc4fk",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T02:03:15.703653416Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T02:03:16.011868745Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T02:03:15.691954257Z"
+  },
+  {
+    "insertId": "33w1vqc1o5",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/fded4035-40a5-4c47-80d7-c37b69d25a0a",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/fded4035-40a5-4c47-80d7-c37b69d25a0a"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T01:09:40.018427150Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/fded4035-40a5-4c47-80d7-c37b69d25a0a",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T01:09:41.012525796Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T01:09:40.010391933Z"
+  },
+  {
+    "insertId": "u09ryib7q",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T01:09:38.957832123Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T01:09:39.932736497Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T01:09:38.943064654Z"
+  },
+  {
+    "insertId": "18frxnxc4ew",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/6ccd5cfd-6218-495e-84b2-140107a37b4c",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/6ccd5cfd-6218-495e-84b2-140107a37b4c"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T00:24:33.946440912Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/6ccd5cfd-6218-495e-84b2-140107a37b4c",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T00:24:35.057640831Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T00:24:33.934551544Z"
+  },
+  {
+    "insertId": "33w1vqc1nl",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-04T00:24:33.000160466Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-04T00:24:33.527629246Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-04T00:24:32.988634650Z"
+  },
+  {
+    "insertId": "33w1vqc1nd",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/876e3714-2dad-4193-a5c6-9c811a87a7ca",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/876e3714-2dad-4193-a5c6-9c811a87a7ca"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T23:32:57.673142217Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/876e3714-2dad-4193-a5c6-9c811a87a7ca",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T23:32:57.943820678Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T23:32:57.653309105Z"
+  },
+  {
+    "insertId": "33w1vqc1nc",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T23:32:56.657617384Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T23:32:56.941128939Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T23:32:56.639540591Z"
+  },
+  {
+    "insertId": "33w1vqc1n0",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/ddb22fc2-eeca-4934-8543-e1df83520fc5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/ddb22fc2-eeca-4934-8543-e1df83520fc5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T22:48:07.326116293Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/ddb22fc2-eeca-4934-8543-e1df83520fc5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T22:48:08.468491594Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T22:48:07.312647618Z"
+  },
+  {
+    "insertId": "18frxnxc4ef",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T22:48:06.312568046Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T22:48:07.071298771Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T22:48:06.298111658Z"
+  },
+  {
+    "insertId": "gxkkaab9l",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/7c380e07-efd4-4436-8906-02c101a48391",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/7c380e07-efd4-4436-8906-02c101a48391"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T22:01:31.136230696Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/7c380e07-efd4-4436-8906-02c101a48391",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T22:01:31.807144813Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T22:01:31.121801081Z"
+  },
+  {
+    "insertId": "1amx257c168",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T22:01:30.151707507Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T22:01:30.336668283Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T22:01:30.130411475Z"
+  },
+  {
+    "insertId": "33w1vqc1mb",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/20a2c895-903e-4c6a-a3d2-199576e222c8",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/20a2c895-903e-4c6a-a3d2-199576e222c8"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T21:19:16.353858060Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/20a2c895-903e-4c6a-a3d2-199576e222c8",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T21:19:16.494222937Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T21:19:16.345738167Z"
+  },
+  {
+    "insertId": "18frxnxc4e4",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T21:19:15.408816144Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T21:19:16.167844217Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T21:19:15.382860478Z"
+  },
+  {
+    "insertId": "1amx257c15h",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/d363014f-cfb5-4499-8124-399a94ae39f9",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/d363014f-cfb5-4499-8124-399a94ae39f9"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T20:33:50.382078666Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/d363014f-cfb5-4499-8124-399a94ae39f9",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T20:33:51.261559742Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T20:33:50.372256553Z"
+  },
+  {
+    "insertId": "33w1vqc1ly",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T20:33:49.673891566Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T20:33:50.004498048Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T20:33:49.664687870Z"
+  },
+  {
+    "insertId": "1amx257c150",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/38bd713f-1f3a-4033-af83-a12241c3f13d",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/38bd713f-1f3a-4033-af83-a12241c3f13d"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T19:51:19.714502697Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/38bd713f-1f3a-4033-af83-a12241c3f13d",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T19:51:20.731482431Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T19:51:19.702717634Z"
+  },
+  {
+    "insertId": "33w1vqc1l8",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T19:51:19.117526313Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T19:51:19.572956733Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T19:51:19.109006392Z"
+  },
+  {
+    "insertId": "1amx257c14k",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/3a492cf5-e374-4922-a4b1-ed5aa0e64ab9",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/3a492cf5-e374-4922-a4b1-ed5aa0e64ab9"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T19:08:31.788297961Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/3a492cf5-e374-4922-a4b1-ed5aa0e64ab9",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T19:08:32.216136668Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T19:08:31.778471536Z"
+  },
+  {
+    "insertId": "18frxnxc4d6",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T19:08:31.186208023Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T19:08:32.007222827Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T19:08:31.177701204Z"
+  },
+  {
+    "insertId": "18frxnxc4cu",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/f1ca37da-bc07-496b-8527-73d632f544f1",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/f1ca37da-bc07-496b-8527-73d632f544f1"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T18:24:29.464893215Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/f1ca37da-bc07-496b-8527-73d632f544f1",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T18:24:29.611730208Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T18:24:29.446208727Z"
+  },
+  {
+    "insertId": "33w1vqc1kg",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T18:24:28.515592331Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T18:24:28.679757300Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T18:24:28.494951493Z"
+  },
+  {
+    "insertId": "18frxnxc4cl",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/686be9f7-0358-4477-9584-163656e24739",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/686be9f7-0358-4477-9584-163656e24739"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T17:38:55.900949130Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/686be9f7-0358-4477-9584-163656e24739",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T17:38:56.106903339Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T17:38:55.873986013Z"
+  },
+  {
+    "insertId": "33w1vqc1k9",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T17:38:54.916199004Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T17:38:55.194999965Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T17:38:54.907247340Z"
+  },
+  {
+    "insertId": "1amx257c13d",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/fcb36939-5ec1-43c6-b4cb-0a230eecd0bd",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/fcb36939-5ec1-43c6-b4cb-0a230eecd0bd"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T16:54:13.546155153Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/fcb36939-5ec1-43c6-b4cb-0a230eecd0bd",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T16:54:14.607885743Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T16:54:13.532561831Z"
+  },
+  {
+    "insertId": "33w1vqc1jv",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T16:54:12.930465777Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T16:54:13.699199907Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T16:54:12.918483371Z"
+  },
+  {
+    "insertId": "1amx257c12s",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/4def4800-7ebd-4c33-bbda-69ff1b19b879",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/4def4800-7ebd-4c33-bbda-69ff1b19b879"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T16:10:35.658030157Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/4def4800-7ebd-4c33-bbda-69ff1b19b879",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T16:10:36.075957711Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T16:10:35.648564785Z"
+  },
+  {
+    "insertId": "18frxnxc4c5",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T16:10:34.596212021Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T16:10:35.168215706Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T16:10:34.574485704Z"
+  },
+  {
+    "insertId": "1amx257c12d",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/691301b5-81ff-48b0-8b3c-0773edcbebbb",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/691301b5-81ff-48b0-8b3c-0773edcbebbb"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T15:27:55.529493158Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/691301b5-81ff-48b0-8b3c-0773edcbebbb",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T15:27:56.568404199Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T15:27:55.522149527Z"
+  },
+  {
+    "insertId": "18frxnxc4by",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T15:27:54.849584796Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T15:27:55.692775874Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T15:27:54.838809748Z"
+  },
+  {
+    "insertId": "33w1vqc1it",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/a8752478-e38a-4d09-ab35-433c079064d6",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/a8752478-e38a-4d09-ab35-433c079064d6"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T14:40:25.008502277Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/a8752478-e38a-4d09-ab35-433c079064d6",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T14:40:25.312550150Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T14:40:24.987945347Z"
+  },
+  {
+    "insertId": "1amx257c11z",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T14:40:24.023033097Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T14:40:25.002802234Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T14:40:24.004565487Z"
+  },
+  {
+    "insertId": "33w1vqc1ie",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/45079322-31ed-4a77-8138-8ce41be36620",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/45079322-31ed-4a77-8138-8ce41be36620"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T13:57:30.529539062Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/45079322-31ed-4a77-8138-8ce41be36620",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:57:30.870600792Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:57:30.507882347Z"
+  },
+  {
+    "insertId": "33w1vqc1id",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T13:57:29.957949855Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:57:30.870600792Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:57:29.949779421Z"
+  },
+  {
+    "insertId": "-fh2omme3t6x4",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "aeb8ee53-562c-47c9-9a4d-af361f35fcd9"
+    },
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "first": true,
+      "id": "operation-1738591013471-62d3d43c483db-7fbb4924-0f1af9e6",
+      "last": true,
+      "producer": "compute.googleapis.com"
+    },
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "268995702429@cloudservices.gserviceaccount.com"
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "compute.instanceGroups.update",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/zones/us-east5-c/instanceGroups/confidential-witness-spot-group",
+          "resourceAttributes": {
+            "name": "projects/buoyant-breeze/zones/us-east5-c/instanceGroups/confidential-witness-spot-group",
+            "service": "compute",
+            "type": "compute.instanceGroups"
+          }
+        },
+        {
+          "granted": true,
+          "permission": "compute.instances.use",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/zones/us-east5-c/instances/wit-cf19",
+          "resourceAttributes": {
+            "name": "projects/buoyant-breeze/zones/us-east5-c/instances/wit-cf19",
+            "service": "compute",
+            "type": "compute.instances"
+          }
+        }
+      ],
+      "methodName": "v1.compute.instanceGroups.addInstances",
+      "request": {
+        "@type": "type.googleapis.com/compute.instanceGroups.addInstances",
+        "instances": [
+          {
+            "instance": "https://www.googleapis.com/compute/v1/projects/268995702429/zones/us-east5-c/instances/wit-cf19"
+          }
+        ],
+        "requestId": "72b58ecd-38e9-4c70-8d89-9fff6388dbe2"
+      },
+      "requestMetadata": {
+        "callerSuppliedUserAgent": "GCE Managed Instance Group",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T13:56:53.629897Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5-c"
+        ]
+      },
+      "resourceName": "projects/268995702429/zones/us-east5-c/instanceGroups/confidential-witness-spot-group",
+      "response": {
+        "@type": "type.googleapis.com/operation",
+        "clientOperationId": "72b58ecd-38e9-4c70-8d89-9fff6388dbe2",
+        "endTime": "2025-02-03T05:56:53.586-08:00",
+        "id": "5369143022175745482",
+        "insertTime": "2025-02-03T05:56:53.572-08:00",
+        "name": "operation-1738591013471-62d3d43c483db-7fbb4924-0f1af9e6",
+        "operationType": "compute.instanceGroups.addInstances",
+        "progress": "100",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/operations/operation-1738591013471-62d3d43c483db-7fbb4924-0f1af9e6",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/operations/5369143022175745482",
+        "startTime": "2025-02-03T05:56:53.585-08:00",
+        "status": "DONE",
+        "targetId": "859695075279765954",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/instanceGroups/confidential-witness-spot-group",
+        "user": "268995702429@cloudservices.gserviceaccount.com",
+        "zone": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c"
+      },
+      "serviceName": "compute.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:56:54.244322510Z",
+    "resource": {
+      "labels": {
+        "instance_group_id": "859695075279765954",
+        "instance_group_name": "confidential-witness-spot-group",
+        "location": "us-east5-c",
+        "project_id": "buoyant-breeze"
+      },
+      "type": "gce_instance_group"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:56:53.436587Z"
+  },
+  {
+    "insertId": "-ikfkhpd7fxc",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "aeb8ee53-562c-47c9-9a4d-af361f35fcd9"
+    },
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1738590967453-62d3d410657ac-24918c4b-b5f2fc03",
+      "last": true,
+      "producer": "compute.googleapis.com"
+    },
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "268995702429@cloudservices.gserviceaccount.com"
+      },
+      "methodName": "v1.compute.instances.update",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.update"
+      },
+      "requestMetadata": {
+        "callerSuppliedUserAgent": "GCE Managed Instance Group"
+      },
+      "resourceName": "projects/268995702429/zones/us-east5-c/instances/wit-cf19",
+      "serviceName": "compute.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:56:54.016558923Z",
+    "resource": {
+      "labels": {
+        "instance_id": "4077146495092457671",
+        "project_id": "buoyant-breeze",
+        "zone": "us-east5-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:56:53.304383Z"
+  },
+  {
+    "insertId": "1izj86ve3sobs",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "268995702429@cloudservices.gserviceaccount.com"
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "iam.serviceAccounts.actAs",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/-/serviceAccounts/witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com"
+        }
+      ],
+      "methodName": "iam.serviceAccounts.actAs",
+      "request": {
+        "@type": "type.googleapis.com/CanActAsServiceAccountRequest",
+        "name": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "project_number": "268995702429"
+      },
+      "resourceName": "projects/-/serviceAccounts/witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+      "response": {
+        "@type": "type.googleapis.com/CanActAsServiceAccountResponse",
+        "success": true
+      },
+      "serviceName": "iam.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:56:38.598883269Z",
+    "resource": {
+      "labels": {
+        "method": "iam.serviceAccounts.actAs",
+        "project_id": "buoyant-breeze",
+        "service": "iam.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:56:38.598883269Z"
+  },
+  {
+    "insertId": "3cgq4ze3bifk",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "aeb8ee53-562c-47c9-9a4d-af361f35fcd9"
+    },
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "first": true,
+      "id": "operation-1738590967453-62d3d410657ac-24918c4b-b5f2fc03",
+      "producer": "compute.googleapis.com"
+    },
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "268995702429@cloudservices.gserviceaccount.com"
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "compute.instances.update",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/zones/us-east5-c/instances/wit-cf19",
+          "resourceAttributes": {
+            "name": "projects/buoyant-breeze/zones/us-east5-c/instances/wit-cf19",
+            "service": "compute",
+            "type": "compute.instances"
+          }
+        }
+      ],
+      "metadata": {
+        "usedResources": {
+          "attachedDisks": [
+            {
+              "isBootDisk": true,
+              "sourceImage": "https://www.googleapis.com/compute/v1/projects/30229352718/global/images/confidential-space-250100",
+              "sourceImageId": "6682394208540043160"
+            }
+          ]
+        }
+      },
+      "methodName": "v1.compute.instances.update",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.update",
+        "confidentialInstanceConfig": {
+          "confidentialInstanceType": "SEV"
+        },
+        "disks": [
+          {
+            "autoDelete": true,
+            "boot": true,
+            "deviceName": "persistent-disk-0",
+            "diskSizeGb": "11",
+            "initializeParams": {
+              "diskType": "projects/268995702429/zones/us-east5-c/diskTypes/pd-standard",
+              "onUpdateAction": "RECREATE_DISK",
+              "sourceImage": "https://www.googleapis.com/compute/v1/projects/confidential-space-images/global/images/confidential-space-250100"
+            },
+            "interface": "SCSI",
+            "mode": "READ_WRITE",
+            "type": "PERSISTENT"
+          }
+        ],
+        "fingerprint": "N�\u0013\u000e�\r�>",
+        "labels": [
+          {
+            "key": "goog-terraform-provisioned",
+            "value": "true"
+          }
+        ],
+        "machineType": "projects/268995702429/zones/us-east5-c/machineTypes/n2d-highcpu-2",
+        "minimalAction": "RESTART",
+        "mostDisruptiveAllowedAction": "RESTART",
+        "name": "wit-cf19",
+        "networkInterfaces": [
+          {
+            "accessConfigs": [
+              {
+                "natIP": "34.1.27.170",
+                "networkTier": "STANDARD",
+                "type": "ONE_TO_ONE_NAT"
+              }
+            ],
+            "name": "nic0",
+            "network": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/global/networks/witness-network",
+            "subnetwork": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/regions/us-east5/subnetworks/witness-network"
+          }
+        ],
+        "requestId": "56ba7788-4093-35e6-96e8-21dcaab97332",
+        "scheduling": {
+          "automaticRestart": false,
+          "instanceTerminationAction": "STOP",
+          "onHostMaintenance": "TERMINATE",
+          "preemptible": true,
+          "provisioningModel": "SPOT"
+        },
+        "serviceAccounts": [
+          {
+            "email": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+            "scopes": [
+              "https://www.googleapis.com/auth/cloud-platform"
+            ]
+          }
+        ],
+        "shieldedInstanceConfig": {
+          "enableIntegrityMonitoring": true,
+          "enableSecureBoot": true,
+          "enableVtpm": true
+        }
+      },
+      "requestMetadata": {
+        "callerSuppliedUserAgent": "GCE Managed Instance Group",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T13:56:08.549540Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5-c"
+        ]
+      },
+      "resourceName": "projects/268995702429/zones/us-east5-c/instances/wit-cf19",
+      "response": {
+        "@type": "type.googleapis.com/operation",
+        "clientOperationId": "56ba7788-4093-35e6-96e8-21dcaab97332",
+        "id": "8429819902231933975",
+        "insertTime": "2025-02-03T05:56:08.449-08:00",
+        "name": "operation-1738590967453-62d3d410657ac-24918c4b-b5f2fc03",
+        "operationType": "update",
+        "progress": "0",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/operations/operation-1738590967453-62d3d410657ac-24918c4b-b5f2fc03",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/operations/8429819902231933975",
+        "startTime": "2025-02-03T05:56:08.483-08:00",
+        "status": "RUNNING",
+        "targetId": "4077146495092457671",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/instances/wit-cf19",
+        "user": "268995702429@cloudservices.gserviceaccount.com",
+        "zone": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c"
+      },
+      "serviceName": "compute.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:56:09.535211487Z",
+    "resource": {
+      "labels": {
+        "instance_id": "4077146495092457671",
+        "project_id": "buoyant-breeze",
+        "zone": "us-east5-c"
+      },
+      "type": "gce_instance"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:56:07.306770Z"
+  },
+  {
+    "insertId": "-4yp5yyd27le",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "aeb8ee53-562c-47c9-9a4d-af361f35fcd9"
+    },
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1738590966764-62d3d40fbd59f-0890c960-34465f3f",
+      "last": true,
+      "producer": "compute.googleapis.com"
+    },
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "268995702429@cloudservices.gserviceaccount.com"
+      },
+      "methodName": "v1.compute.instanceGroups.removeInstances",
+      "request": {
+        "@type": "type.googleapis.com/compute.instanceGroups.removeInstances"
+      },
+      "requestMetadata": {
+        "callerSuppliedUserAgent": "GCE Managed Instance Group"
+      },
+      "resourceName": "projects/268995702429/zones/us-east5-c/instanceGroups/confidential-witness-spot-group",
+      "serviceName": "compute.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:56:07.466489941Z",
+    "resource": {
+      "labels": {
+        "instance_group_id": "859695075279765954",
+        "instance_group_name": "confidential-witness-spot-group",
+        "location": "us-east5-c",
+        "project_id": "buoyant-breeze"
+      },
+      "type": "gce_instance_group"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:56:07.032212Z"
+  },
+  {
+    "insertId": "p0w6mxe3ni9c",
+    "labels": {
+      "compute.googleapis.com/root_trigger_id": "aeb8ee53-562c-47c9-9a4d-af361f35fcd9"
+    },
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "first": true,
+      "id": "operation-1738590966764-62d3d40fbd59f-0890c960-34465f3f",
+      "producer": "compute.googleapis.com"
+    },
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "268995702429@cloudservices.gserviceaccount.com"
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "compute.instanceGroups.update",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/zones/us-east5-c/instanceGroups/confidential-witness-spot-group",
+          "resourceAttributes": {
+            "name": "projects/buoyant-breeze/zones/us-east5-c/instanceGroups/confidential-witness-spot-group",
+            "service": "compute",
+            "type": "compute.instanceGroups"
+          }
+        }
+      ],
+      "methodName": "v1.compute.instanceGroups.removeInstances",
+      "request": {
+        "@type": "type.googleapis.com/compute.instanceGroups.removeInstances",
+        "instances": [
+          {
+            "instance": "https://www.googleapis.com/compute/v1/projects/268995702429/zones/us-east5-c/instances/wit-cf19"
+          }
+        ],
+        "requestId": "01226617-473f-4066-9bc3-0a6c756d8e76"
+      },
+      "requestMetadata": {
+        "callerSuppliedUserAgent": "GCE Managed Instance Group",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T13:56:06.850298Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5-c"
+        ]
+      },
+      "resourceName": "projects/268995702429/zones/us-east5-c/instanceGroups/confidential-witness-spot-group",
+      "response": {
+        "@type": "type.googleapis.com/operation",
+        "clientOperationId": "01226617-473f-4066-9bc3-0a6c756d8e76",
+        "id": "8951284848145560601",
+        "insertTime": "2025-02-03T05:56:06.827-08:00",
+        "name": "operation-1738590966764-62d3d40fbd59f-0890c960-34465f3f",
+        "operationType": "compute.instanceGroups.removeInstances",
+        "progress": "0",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/operations/operation-1738590966764-62d3d40fbd59f-0890c960-34465f3f",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/operations/8951284848145560601",
+        "startTime": "2025-02-03T05:56:06.828-08:00",
+        "status": "RUNNING",
+        "targetId": "859695075279765954",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c/instanceGroups/confidential-witness-spot-group",
+        "user": "268995702429@cloudservices.gserviceaccount.com",
+        "zone": "https://www.googleapis.com/compute/v1/projects/buoyant-breeze/zones/us-east5-c"
+      },
+      "serviceName": "compute.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:56:06.904283965Z",
+    "resource": {
+      "labels": {
+        "instance_group_id": "859695075279765954",
+        "instance_group_name": "confidential-witness-spot-group",
+        "location": "us-east5-c",
+        "project_id": "buoyant-breeze"
+      },
+      "type": "gce_instance_group"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:56:06.739455Z"
+  },
+  {
+    "insertId": "33w1vqc1ia",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/2b025646-b949-4aaa-b9c3-e199126bf33a",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/2b025646-b949-4aaa-b9c3-e199126bf33a"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T13:50:10.869340808Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/2b025646-b949-4aaa-b9c3-e199126bf33a",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:50:11.790778850Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:50:10.858826422Z"
+  },
+  {
+    "insertId": "1amx257c11j",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T13:50:09.826677619Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T13:50:10.368614663Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T13:50:09.816021365Z"
+  },
+  {
+    "insertId": "18frxnxc4b4",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/03060b36-42f0-41bf-bfa9-5a0fe5c6ef1a",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/03060b36-42f0-41bf-bfa9-5a0fe5c6ef1a"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T12:59:50.016662583Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/03060b36-42f0-41bf-bfa9-5a0fe5c6ef1a",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T12:59:50.713292572Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T12:59:49.994501776Z"
+  },
+  {
+    "insertId": "dnr0z1b89",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T12:59:49.008496129Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T12:59:50.068355655Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T12:59:48.998497230Z"
+  },
+  {
+    "insertId": "18frxnxc4af",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/5364e3c1-9e1e-4c66-a815-85c39e6c2876",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/5364e3c1-9e1e-4c66-a815-85c39e6c2876"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T12:16:42.855206097Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/5364e3c1-9e1e-4c66-a815-85c39e6c2876",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T12:16:43.957887434Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T12:16:42.846304558Z"
+  },
+  {
+    "insertId": "1amx257c10g",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T12:16:41.959412926Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T12:16:43.051804914Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T12:16:41.944503518Z"
+  },
+  {
+    "insertId": "33w1vqc1gp",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/41097185-e260-4dba-82ba-28e617ac2959",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/41097185-e260-4dba-82ba-28e617ac2959"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T11:30:05.208635316Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/41097185-e260-4dba-82ba-28e617ac2959",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T11:30:06.306716894Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T11:30:05.192207307Z"
+  },
+  {
+    "insertId": "33w1vqc1go",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T11:30:04.276013237Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T11:30:05.308075858Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T11:30:04.254290808Z"
+  },
+  {
+    "insertId": "18frxnxc49y",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/ef9c8a4b-5ce3-497a-8a99-b52569b1f443",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/ef9c8a4b-5ce3-497a-8a99-b52569b1f443"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T10:37:57.015702223Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/ef9c8a4b-5ce3-497a-8a99-b52569b1f443",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T10:37:57.676737287Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T10:37:57.004869565Z"
+  },
+  {
+    "insertId": "1amx257bzg",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T10:37:56.021357707Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T10:37:56.729790429Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T10:37:56.007040102Z"
+  },
+  {
+    "insertId": "18frxnxc49p",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.verify",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5/challenges/2de5f1bc-3b18-4317-a1fb-be36c4e93593",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationRequest",
+        "challenge": "projects/buoyant-breeze/locations/us-east5/challenges/2de5f1bc-3b18-4317-a1fb-be36c4e93593"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T09:48:42.762046280Z"
+        }
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5/challenges/2de5f1bc-3b18-4317-a1fb-be36c4e93593",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.VerifyAttestationResponse"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T09:48:42.972034103Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.VerifyAttestation",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T09:48:42.753115522Z"
+  },
+  {
+    "insertId": "1amx257bz1",
+    "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "principalSubject": "serviceAccount:witness-compute-engine@buoyant-breeze.iam.gserviceaccount.com",
+        "serviceAccountDelegationInfo": [
+          {
+            "firstPartyPrincipal": {
+              "principalEmail": "service-268995702429@compute-system.iam.gserviceaccount.com"
+            }
+          }
+        ]
+      },
+      "authorizationInfo": [
+        {
+          "granted": true,
+          "permission": "confidentialcomputing.challenges.create",
+          "permissionType": "ADMIN_WRITE",
+          "resource": "projects/buoyant-breeze/locations/us-east5",
+          "resourceAttributes": {}
+        }
+      ],
+      "methodName": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.CreateChallengeRequest",
+        "parent": "projects/buoyant-breeze/locations/us-east5"
+      },
+      "requestMetadata": {
+        "callerIp": "34.1.27.170",
+        "callerSuppliedUserAgent": "Go-http-client/2.0,gzip(gfe),gzip(gfe)",
+        "destinationAttributes": {},
+        "requestAttributes": {
+          "auth": {},
+          "time": "2025-02-03T09:48:41.788413160Z"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      },
+      "resourceName": "projects/buoyant-breeze/locations/us-east5",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.confidentialcomputing.v1.Challenge"
+      },
+      "serviceName": "confidentialcomputing.googleapis.com"
+    },
+    "receiveTimestamp": "2025-02-03T09:48:42.071043671Z",
+    "resource": {
+      "labels": {
+        "method": "google.cloud.confidentialcomputing.v1.ConfidentialComputing.CreateChallenge",
+        "project_id": "buoyant-breeze",
+        "service": "confidentialcomputing.googleapis.com"
+      },
+      "type": "audited_resource"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2025-02-03T09:48:41.779060328Z"
+  },
+  {
     "insertId": "1amx257byp",
     "logName": "projects/buoyant-breeze/logs/cloudaudit.googleapis.com%2Factivity",
     "protoPayload": {
